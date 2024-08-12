@@ -1,0 +1,18 @@
+If there are no nodes(node_length == 0):
+    Create a new node
+    node_length + 1
+    define it at the tail
+    and the head
+Else:
+    Create a new node
+    node_length + 1
+    Set it to the next of the tail node
+    Set it to the tail node
+
+Question:
+    How is every node saved? A: Through its class variable
+Prerequisites:
+    new_node
+    tail 
+    node length
+    head
