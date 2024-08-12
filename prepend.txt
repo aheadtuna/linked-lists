@@ -1,0 +1,8 @@
+If node size is zero:
+    New node
+    node size + 1
+    Set it to the tail and the head
+Else
+    New node
+    Set the next node from it to the head
+    Set the new node to the head

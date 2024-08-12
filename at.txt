@@ -1,0 +1,9 @@
+Unless the index is bigger than the size - 1 and the index is not smaller than 0:
+    current_node = head
+    steps = size - 1
+    until steps equals 0:
+        next_node = the next node of current_node
+        current_node = next_node
+        steps - 1
+    return current_node
+    
